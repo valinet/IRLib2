@@ -13,7 +13,7 @@
 
 #ifndef IRLibRecv_h
 #define IRLibRecv_h
-#include "IRLibRecvBase.h"
+#include "../IRLib2/IRLibRecvBase.h"
 
 class IRrecv: public IRrecvBase {
 public:

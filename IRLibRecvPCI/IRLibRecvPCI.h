@@ -19,7 +19,7 @@
 
 #ifndef IRLibRecvPCI_h
 #define IRLibRecvPCI_h
-#include "IRLibRecvBase.h"
+#include "../IRLib2/IRLibRecvBase.h"
 
 class IRrecvPCI: public IRrecvBase {
 public:

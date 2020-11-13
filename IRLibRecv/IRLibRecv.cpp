@@ -11,7 +11,7 @@
  */
  
 #include "IRLibRecv.h"
-#include "IRLibHardware.h" //needed for IRLib_didIROut
+#include "../IRLibProtocols/IRLibHardware.h" //needed for IRLib_didIROut
 #if !defined (__SAMD21G18A__)
   #include <avr/interrupt.h>
 #endif

@@ -16,7 +16,7 @@
  */
 
 #include "IRLibRecvPCI.h"
-#include "IRLibHardware.h" //needed for IRLib_didIROut
+#include "../IRLibProtocols/IRLibHardware.h" //needed for IRLib_didIROut
 
 void IRrecvPCI_Handler();//prototype for interrupt handler
 

@@ -10,7 +10,7 @@
 #ifndef IRLIBDECODEBASE_H
 #define IRLIBDECODEBASE_H
 #include "IRLibGlobals.h"
-#include "IRLibProtocols.h"
+#include "../IRLibProtocols/IRLibProtocols.h"
 
 // Base class for decoding raw results
 class IRdecodeBase {

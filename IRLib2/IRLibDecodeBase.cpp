@@ -8,7 +8,7 @@
  * protocol specific decoders.
  */
 #include "IRLibDecodeBase.h"
-#include "IRLibHardware.h"
+#include "../IRLibProtocols/IRLibHardware.h"
 
 IRdecodeBase::IRdecodeBase(void) {
   recvGlobal.decoderWantsData=false; //turned on by enableIRIn.
